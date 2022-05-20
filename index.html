@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist's Alley</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--Token Name, Token Symbol, Token Price, Amount of tokens minted-->
+    <header>
+        <h1>Artist's Alley</h1>
+        <nav>
+            <ul>
+                <li id="token_name">Name</li>
+                <li id="token_symbol">Symbol</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button id="your_address_button">Connect wallet</button>
+        <p id="token_price"></p>
+        <p><span id="current_token_id"></span> tokens of <span id="missing_tokens"></span> minted</p>
+        <p id="address_paragraph">NFT address: <span
+                id="token_address">0x44b28AC5aba0d1fD62CdAf46B699F4270d3C8996</span></p>
+        <button id="mint_button">Mint</button>
+    </main>
+    <footer>
+        2nd Market &copy;
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.2-rc.0/web3.min.js"
+        integrity="sha512-REWiGZVmhU2S5eIov/DuNrsq4djWnPaAHSvXrbLLLaI0r/gW+wh1utIzxt0iB4IQLgXhNDj5mR0YMBjrkKhVMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
